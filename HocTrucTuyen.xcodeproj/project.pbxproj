@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13493A762562919100B30BDA /* ContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13493A752562919100B30BDA /* ContentController.swift */; };
-		13495E63256168E5000DA749 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13495E62256168E5000DA749 /* HomeController.swift */; };
+		13424250258C7EE2001EB499 /* MenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1342424F258C7EE2001EB499 /* MenuView.xib */; };
+		13424255258C7F04001EB499 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13424254258C7F04001EB499 /* MenuViewController.swift */; };
+		13495E63256168E5000DA749 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13495E62256168E5000DA749 /* MenuController.swift */; };
+		135001F9258861C000A6FF7A /* AdventisementCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135001F8258861C000A6FF7A /* AdventisementCell.swift */; };
+		135001FE2588631000A6FF7A /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135001FD2588631000A6FF7A /* MenuCell.swift */; };
+		1350020A258865AB00A6FF7A /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13500209258865AB00A6FF7A /* HomeController.swift */; };
+		1350021725886D3200A6FF7A /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1350021625886D3100A6FF7A /* SearchController.swift */; };
+		1350021C25886D4400A6FF7A /* CategoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1350021B25886D4400A6FF7A /* CategoryController.swift */; };
 		1358224D25612ABD0096CFAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1358224C25612ABD0096CFAA /* AppDelegate.swift */; };
 		1358224F25612ABD0096CFAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1358224E25612ABD0096CFAA /* SceneDelegate.swift */; };
 		1358225125612ABD0096CFAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1358225025612ABD0096CFAA /* ViewController.swift */; };
@@ -18,6 +24,9 @@
 		1358225C25612ABF0096CFAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1358225A25612ABF0096CFAA /* LaunchScreen.storyboard */; };
 		1358226725612ABF0096CFAA /* HocTrucTuyenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1358226625612ABF0096CFAA /* HocTrucTuyenTests.swift */; };
 		1358227225612ABF0096CFAA /* HocTrucTuyenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1358227125612ABF0096CFAA /* HocTrucTuyenUITests.swift */; };
+		135F6BD92594738700B8EED6 /* CourseTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135F6BD82594738700B8EED6 /* CourseTableCell.swift */; };
+		138367472594D7F100E383BB /* Instance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138367462594D7F100E383BB /* Instance.swift */; };
+		13E23365258890CC00390565 /* Adventisement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E23364258890CC00390565 /* Adventisement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +47,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		13493A752562919100B30BDA /* ContentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentController.swift; sourceTree = "<group>"; };
-		13495E62256168E5000DA749 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		1342424F258C7EE2001EB499 /* MenuView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuView.xib; sourceTree = "<group>"; };
+		13424254258C7F04001EB499 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		13495E62256168E5000DA749 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		135001F8258861C000A6FF7A /* AdventisementCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventisementCell.swift; sourceTree = "<group>"; };
+		135001FD2588631000A6FF7A /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		13500209258865AB00A6FF7A /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		1350021625886D3100A6FF7A /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		1350021B25886D4400A6FF7A /* CategoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryController.swift; sourceTree = "<group>"; };
 		1358224925612ABD0096CFAA /* HocTrucTuyen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HocTrucTuyen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1358224C25612ABD0096CFAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1358224E25612ABD0096CFAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +70,9 @@
 		1358226D25612ABF0096CFAA /* HocTrucTuyenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HocTrucTuyenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1358227125612ABF0096CFAA /* HocTrucTuyenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HocTrucTuyenUITests.swift; sourceTree = "<group>"; };
 		1358227325612ABF0096CFAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		135F6BD82594738700B8EED6 /* CourseTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseTableCell.swift; sourceTree = "<group>"; };
+		138367462594D7F100E383BB /* Instance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instance.swift; sourceTree = "<group>"; };
+		13E23364258890CC00390565 /* Adventisement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adventisement.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +100,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13424248258C7ACD001EB499 /* Shares */ = {
+			isa = PBXGroup;
+			children = (
+				1342424F258C7EE2001EB499 /* MenuView.xib */,
+				13424254258C7F04001EB499 /* MenuViewController.swift */,
+				138367462594D7F100E383BB /* Instance.swift */,
+			);
+			path = Shares;
+			sourceTree = "<group>";
+		};
+		135002052588634100A6FF7A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				135001F8258861C000A6FF7A /* AdventisementCell.swift */,
+				135001FD2588631000A6FF7A /* MenuCell.swift */,
+				135F6BD82594738700B8EED6 /* CourseTableCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		1350020E258865CB00A6FF7A /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				1358225025612ABD0096CFAA /* ViewController.swift */,
+				13495E62256168E5000DA749 /* MenuController.swift */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		135002122588665200A6FF7A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				13500209258865AB00A6FF7A /* HomeController.swift */,
+				1350021625886D3100A6FF7A /* SearchController.swift */,
+				1350021B25886D4400A6FF7A /* CategoryController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		1358224025612ABD0096CFAA = {
 			isa = PBXGroup;
 			children = (
@@ -105,16 +162,18 @@
 		1358224B25612ABD0096CFAA /* HocTrucTuyen */ = {
 			isa = PBXGroup;
 			children = (
-				1358224C25612ABD0096CFAA /* AppDelegate.swift */,
+				13424248258C7ACD001EB499 /* Shares */,
+				135002052588634100A6FF7A /* Cells */,
+				1350020E258865CB00A6FF7A /* Layout */,
 				1358224E25612ABD0096CFAA /* SceneDelegate.swift */,
-				1358225025612ABD0096CFAA /* ViewController.swift */,
+				1358224C25612ABD0096CFAA /* AppDelegate.swift */,
 				1358225225612ABD0096CFAA /* Main.storyboard */,
 				1358225825612ABE0096CFAA /* Assets.xcassets */,
 				1358225A25612ABF0096CFAA /* LaunchScreen.storyboard */,
 				1358225D25612ABF0096CFAA /* Info.plist */,
 				1358225525612ABD0096CFAA /* HocTrucTuyen.xcdatamodeld */,
-				13495E62256168E5000DA749 /* HomeController.swift */,
-				13493A752562919100B30BDA /* ContentController.swift */,
+				135002122588665200A6FF7A /* View */,
+				13E23369258890D100390565 /* Models */,
 			);
 			path = HocTrucTuyen;
 			sourceTree = "<group>";
@@ -135,6 +194,14 @@
 				1358227325612ABF0096CFAA /* Info.plist */,
 			);
 			path = HocTrucTuyenUITests;
+			sourceTree = "<group>";
+		};
+		13E23369258890D100390565 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				13E23364258890CC00390565 /* Adventisement.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1358225C25612ABF0096CFAA /* LaunchScreen.storyboard in Resources */,
+				13424250258C7EE2001EB499 /* MenuView.xib in Resources */,
 				1358225925612ABE0096CFAA /* Assets.xcassets in Resources */,
 				1358225425612ABD0096CFAA /* Main.storyboard in Resources */,
 			);
@@ -268,11 +336,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				1358225125612ABD0096CFAA /* ViewController.swift in Sources */,
-				13493A762562919100B30BDA /* ContentController.swift in Sources */,
+				13E23365258890CC00390565 /* Adventisement.swift in Sources */,
+				1350021725886D3200A6FF7A /* SearchController.swift in Sources */,
 				1358224D25612ABD0096CFAA /* AppDelegate.swift in Sources */,
+				138367472594D7F100E383BB /* Instance.swift in Sources */,
+				135001F9258861C000A6FF7A /* AdventisementCell.swift in Sources */,
+				1350021C25886D4400A6FF7A /* CategoryController.swift in Sources */,
 				1358225725612ABD0096CFAA /* HocTrucTuyen.xcdatamodeld in Sources */,
+				13424255258C7F04001EB499 /* MenuViewController.swift in Sources */,
+				1350020A258865AB00A6FF7A /* HomeController.swift in Sources */,
 				1358224F25612ABD0096CFAA /* SceneDelegate.swift in Sources */,
-				13495E63256168E5000DA749 /* HomeController.swift in Sources */,
+				135001FE2588631000A6FF7A /* MenuCell.swift in Sources */,
+				135F6BD92594738700B8EED6 /* CourseTableCell.swift in Sources */,
+				13495E63256168E5000DA749 /* MenuController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
